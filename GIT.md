@@ -1,6 +1,4 @@
 
-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
-
 git config --global credential.helper store
 git config --global user.name "devshazam"
 git config --global user.email "devshazam@gmail.com"
@@ -23,9 +21,6 @@ add file to gitignore
 git rm -r --cached <folder>
 git rm --cached <file>
 git status --ignored // получить список игнорируемых файлов и папок
-
-
-
 
 
 # ОШИБКИ:

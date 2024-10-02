@@ -1,4 +1,4 @@
-```js
+
 - Концепции языка TypeScript
     - Тип переменным задается явно (самостоятельно) и автоматически при объявлении
     - Тип нужно объявлять для переменных , ф-ций, цикла for
@@ -26,7 +26,7 @@
 
     while (x < 10){ ... } // 
 
-    NOT USAGE: из-за автоопределенияциклы возвращают разный x (String and Number)
+    NOT USAGE: из-за автоопределения циклы возвращают разный x (String and Number)
         for (let x in var){ ... } // FOR_INDEX - loop index of String, Array, Object
             x return STRING !!!
         for (let x of var){ ... } // FOR_VALUE - loop value of String, Array 

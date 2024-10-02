@@ -16,3 +16,9 @@
 
 2_import Script from 'next/script';
     <Script src="https://example.com/third-party.js" strategy="lazyOnload" />
+
+
+
+const ClientComponent = dynamic(() => import('./ClientComponent'), {
+  loading: () => <p>Loading...</p>,
+});
