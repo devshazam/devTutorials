@@ -33,6 +33,8 @@
     () // групирующие скобки - для применения н
     | // символ или
         /(:|;)(-|~)|D/ // если не использовать скобки, то "ИЛИ" будет распространятся на всю строку
+        - НЕ ПРАВИЛЬНО: /(.)urger|(.)ries|(.)hicken|(.)izza|(.)andwich|(.)izza|(.)andwich|(.)ilkshake|(.)ilkshake|(.)oke/
+        - ПРАВИЛЬНО: /(.)(urger|ries|hicken|izza|andwich|nionrings|ilkshake|oke)/
     [zy] // z или y
         [a-z] // один символ от a до z
             [:-@] //  группы получаются по таблице ASCII
@@ -67,6 +69,8 @@ replace() -> return STRING
         let sum = Number(m1) + Number(m2); 
         return m0 + sum; 
     });
+        - ПРАВИЛЬНО: /(.)(urger|ries|hicken|izza|andwich|nionrings|ilkshake|oke)/
+        - НЕ ПРАВИЛЬНО: /(.)urger|(.)ries|(.)hicken|(.)izza|(.)andwich|(.)izza|(.)andwich|(.)ilkshake|(.)ilkshake|(.)oke/
 
 test() -> return BOOLEAN
     let x1 = /Hello/g

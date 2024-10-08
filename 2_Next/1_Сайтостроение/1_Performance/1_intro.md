@@ -5,6 +5,7 @@
 
 - Шрифты
     - использовать только локально woff2
+    - Использовать font-display: swap;  чтобы текст оставался видимым во время загрузки шрифта.
 
 - lazy-load vs suspence - https://sitedominion.medium.com/lazy-vs-dynamic-loading-components-in-next-js-7c4b1775f9b0
 - "use client" - ,tp кешированияя и предрендеринга - использовать по минимуму

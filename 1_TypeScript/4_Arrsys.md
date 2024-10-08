@@ -10,7 +10,9 @@
 In
         console.log(0 in array) // вернет boolean если в массиве есть свойство с позицией 0
 
-
+at()
+        let res = ['a', 'b', 'c'].at(-1);
+        console.log(res);
 
 Array(5)
 Array.apply(null, Array(5)).map(function () {})

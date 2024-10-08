@@ -1,0 +1,3 @@
+- Сброс стилей
+    - npm install modern-normalize
+    - ⚠️ Предустановленно в TailWind - https://tailwindcss.com/docs/preflight
