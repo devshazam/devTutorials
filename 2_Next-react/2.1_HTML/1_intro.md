@@ -1,3 +1,7 @@
+# 1 Naming Convention:
+
+
+
 background:
     background: #ffffff url("img_tree.png") no-repeat right top; // картинка
     background-image: linear-gradient(red, yellow); // Градиент

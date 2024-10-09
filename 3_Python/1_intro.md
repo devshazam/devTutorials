@@ -1,3 +1,7 @@
+# 1 Naming Convention:
+    -
+
+
 Comments:
     # <- Это знак коментариев
 
