@@ -1,2 +1,4 @@
 - Разделители выделения при двойном клике
     - editor.wordSeparators
+- Кастомизация цветов в маркдаун
+    - editor.tokenColorCustomizations
