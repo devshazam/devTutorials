@@ -69,6 +69,11 @@ indexOf() -> return NUMBER
 
 
 
+slice(start, end) -> return DIFFERENT NEW VALUE
+        // вернет массив элементов от start до end
+        let arr = ['a', 'b', 'c', 'd', 'e'];
+        let sub = arr.slice(1);
+        console.log(sub);
 splice(start, end) -> return DIFFERENT NEW VALUE
         // вернет массив элементов от start до end
         let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
@@ -85,14 +90,19 @@ push() -> return MODIFIED SAME ARRAY
         let arr = ['a', 'b', 'c', 'd'];
         let x1 = arr.push('e');
         arr // return ['a', 'b', 'c', 'd', 'e']
-
-        pop() -> return MODIFIED SAME ARRAY
+pop() -> return MODIFIED SAME ARRAY
                 // удалит последний элемент массива, оставив остальные члены на своих позициях
                 let arr = ['a', 'b', 'c', 'd', 'e'];
                 let x1 = arr.pop();
                 arr // return ['a', 'b', 'c', 'd']
                 x1 // return 'e'
 
+shift() -> return MODIFIED SAME ARRAY
+        // удаляет первый элемент из массива
+unshift() -> return MODIFIED SAME ARRAY
+        let arr = ['a', 'b', 'c', 'd', 'e'];
+        arr.unshift('1', '2');
+        console.log(arr);
 
 
 

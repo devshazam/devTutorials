@@ -2,3 +2,5 @@
     - editor.wordSeparators
 - Кастомизация цветов в маркдаун
     - editor.tokenColorCustomizations
+- AueoIndent code
+    - On Windows Shift + Alt + F
